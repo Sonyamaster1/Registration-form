@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <article class="container">
+      <div class="section">
+        <section class="section__item">
+          <h1 class="section__item-title">Do you have an account?</h1>
+          <button class="section__item-btn singin-btn">Sign In</button>
+        </section>
+
+        <section class="section__item">
+          <h1 class="section__item-title">Don't you have an account?</h1>
+          <button class="section__item-btn singup-btn">Sign Up</button>
+        </section>
+      </div>
+      <div class="form">
+        <form action="#" class="form-item form-item_singup">
+          <h3 class="form-item__title">Sing Up</h3>
+
+          <input
+            class="form-item__input"
+            type="text"
+            name="username"
+            placeholder="Username"
+            autocomplete="off"
+          />
+
+          <input
+            class="form-item__input"
+            type="text"
+            name="email"
+            placeholder="Email"
+            autocomplete="off"
+          />
+
+          <input
+            class="form-item__input"
+            type="text"
+            name="password"
+            placeholder="Password"
+            autocomplete="off"
+          />
+
+          <input
+            class="form-item__input"
+            type="text"
+            name="confirm"
+            placeholder="Confirm password"
+            autocomplete="off"
+          />
+
+          <button class="form-item__btn form-item__btn_type_up">Sing Up</button>
+        </form>
+        <form action="#" class="form-item form-item_singin">
+          <h3 class="form-item__title">Sing In</h3>
+
+          <input
+            class="form-item__input"
+            type="text"
+            name="username"
+            placeholder="Username"
+            autocomplete="off"
+          />
+
+          <input
+            class="form-item__input"
+            type="text"
+            name="password"
+            placeholder="Password"
+            autocomplete="off"
+          />
+
+          <button class="form-item__btn form-item__btn_type_in">Sing In</button>
+          <a
+            ><p href="#" class="form-item__lost-link">Lost your password?</p></a
+          >
+        </form>
+      </div>
+    </article>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
